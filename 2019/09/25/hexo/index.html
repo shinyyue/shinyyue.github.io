@@ -19,7 +19,7 @@
 <meta property="og:image" content="https://github.com/images/create-oAuthApp.jpeg">
 <meta property="og:image" content="https://github.com/images/create-oAuth-info.jpeg">
 <meta property="og:image" content="https://github.com/images/gitment.jpeg">
-<meta property="og:updated_time" content="2019-10-08T03:22:09.420Z">
+<meta property="og:updated_time" content="2019-10-08T05:21:22.237Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="搭建hexo博客">
 <meta name="twitter:description" content="安装 hexo 需要安装 Node.js 和 Git 应用  全局安装 hexo   1$ npm install -g hexo-cli">
@@ -249,8 +249,8 @@
 <h2 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h2><p>1.如何使文章在首页只显示一部分？</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">在md文件中适当的位置添加 &lt;!-- more --&gt;进行截断，即可在首页仅显示该阶段标识以上的部分；</span><br><span class="line"></span><br><span class="line">此时，more&gt;&gt; 和 展开全文按钮同时存在，需要去掉一个；</span><br><span class="line"></span><br><span class="line">主题目录下的_config.yml文件中，修改excerpt_link值为空，即可去掉more&gt;&gt;。</span><br></pre></td></tr></table></figure>
 
-<p>2.添加评论时出现 Error: Not Found</p>
-<p>可能的原因是：repo 库写错，这里 repo 指的是 github 中的你用来记录 issue 的库。</p>
+<p>2.hexo d出现ERROR Deployer not found: git的问题。</p>
+<pre><code>下载依赖npm install hexo-deployer-git –save</code></pre><p>3.可能的原因是：repo 库写错，这里 repo 指的是 github 中的你用来记录 issue 的库。</p>
 
       
 
@@ -364,20 +364,6 @@
 </article>
 
   
-<nav id="article-nav">
-  
-    <a href="/2019/10/08/node学习笔记——1/" id="article-nav-newer" class="article-nav-link-wrap">
-      <i class="icon-circle-left"></i>
-      <div class="article-nav-title">
-        
-          node学习笔记——1
-        
-      </div>
-    </a>
-  
-  
-</nav>
-
 
 <aside class="wrap-side-operation">
     <div class="mod-side-operation">
@@ -494,15 +480,15 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
           <ul class="article-tag-list" q-show="showTags">
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color5">node</a>
-              </li>
-             
-              <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color5">hexo</a>
               </li>
              
               <li class="article-tag-list-item">
-                <a href="javascript:void(0)" class="js-tag color3">随笔</a>
+                <a href="javascript:void(0)" class="js-tag color3">js</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">node</a>
               </li>
             
             <div class="clearfix"></div>
